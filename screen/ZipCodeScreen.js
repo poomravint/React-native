@@ -8,6 +8,8 @@ const availableZipItems = [
   { place: "Chiangmai", code: "50000" },
   { place: "Khonkaen", code: "40000" },
   { place: "Chonburi", code: "20000" },
+  { place: "Lopburi", code: "30000" },
+  { place: "Thasala", code: "80160" },
 ];
 const ZipItem = ({ place, code, navigation }) => (
     <TouchableHighlight style={{backgroundColor:'rgba(182, 182, 182, 0.8)'}} onPress={() => {
@@ -48,5 +50,5 @@ const styles = StyleSheet.create({
     },
     zipCode: {
         flex: 1,
-    }
+    },
 })
